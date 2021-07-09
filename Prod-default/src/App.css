@@ -1,0 +1,92 @@
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  color: dodgerblue;
+}
+.signout{
+  color: white;
+}
+.signin{
+  color: azure;
+  text-align: center;
+  font-size: 50px;
+  padding-left: 44%;
+  padding-top: 50px;
+}
+button:hover,
+button:focus {
+  transform: scale(1.2);
+  transition: ease-in-out 0.1s;
+  color: azure;
+}
+
+p:hover,
+p:focus {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out 0.1s;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color:#1b1b1b;
+  color: white;
+  
+}
+
+main {
+  text-align: center;
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 0 50px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 50px;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  color:white;
+  
+}
+
+.todo-item {
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+.complete {
+  text-decoration: line-through;
+  user-select: all;
+  color: white;
+}
+
+.todo :last-child {
+  margin-left: 2rem;
+  color: #bf616a;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

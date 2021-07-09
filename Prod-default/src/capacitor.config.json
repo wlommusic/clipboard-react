@@ -1,0 +1,13 @@
+{
+    "appId": "io.ionic.clipboard",
+    "appName": "clipboard",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {},
+    "linuxAndroidStudioPath":"/var/lib/snapd/snap/bin/android-studio"
+    
+
+  }
+
+  export CAPACITOR_ANDROID_STUDIO_PATH="/var/lib/snapd/snap/bin/android-studio" 

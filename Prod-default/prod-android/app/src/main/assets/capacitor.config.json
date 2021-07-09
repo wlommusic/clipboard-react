@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "clipboard",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

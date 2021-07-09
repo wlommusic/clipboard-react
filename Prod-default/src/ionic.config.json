@@ -1,0 +1,7 @@
+{
+    "name": "clipboard",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }
