@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #1b1b1b;
+    color: white;
+}
+.top {
+  text-align: center;
+  
+}
+
+.footer {
+  text-align: center;
+  clear: both;
+  position: relative;
+  margin-top: 300px;
+  color:black;
+  background-color: azure;
+  font-weight: bold;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto 0 auto;
+  background: #1b1b1b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-logo {
+  display: inline-block;
+  border-radius: 50%;
+  border: 10px solid #00d8ff;
+
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.react-logo,
+.react-logo:before,
+.react-logo:after {
+  position: absolute;
+  display: inline-block;
+  width: 180px;
+  height: 70px;
+  border-radius: 50%;
+  border: 10px solid #00d8ff;
+}
+
+.nucleo,
+.react-logo,
+.react-logo:before,
+.react-logo:after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nucleo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #00d8ff;
+}
+
+.react-logo:before,
+.react-logo:after {
+  content: "";
+}
+
+.react-logo:after {
+  transform: rotate(-57deg);
+}
+
+.react-logo:before {
+  transform: rotate(57deg);
+}
+
+.title {
+  font-size: 40px;
+  background:  #1b1b1b;
+  color: dodgerblue;
+  width: 250px;
+  margin: 2px auto;
+  text-align: center;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}

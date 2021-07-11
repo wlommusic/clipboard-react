@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="331fe5cd-405b-4888-8971-73ec5e34550d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectId" id="1v2wO3z65qLA89THo3zhIEfB3s1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="331fe5cd-405b-4888-8971-73ec5e34550d" name="Default Changelist" comment="" />
+      <created>1625773460637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625773460637</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="175" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625774066146">
+      <screen x="0" y="0" width="1440" height="863" />
+    </state>
+    <state x="175" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.863@0.0.1440.863" timestamp="1625774066146" />
+    <state x="483" y="262" width="466" height="337" key="#com.intellij.tools.ToolEditorDialog" timestamp="1625773744414">
+      <screen x="0" y="0" width="1440" height="863" />
+    </state>
+    <state x="483" y="262" width="466" height="337" key="#com.intellij.tools.ToolEditorDialog/0.0.1440.863@0.0.1440.863" timestamp="1625773744414" />
+    <state x="503" y="175" width="428" height="513" key="FileChooserDialogImpl" timestamp="1625774013351">
+      <screen x="0" y="0" width="1440" height="863" />
+    </state>
+    <state x="503" y="175" width="428" height="513" key="FileChooserDialogImpl/0.0.1440.863@0.0.1440.863" timestamp="1625774013351" />
+    <state x="257" y="82" width="1009" height="730" key="SettingsEditor" timestamp="1625774238405">
+      <screen x="0" y="0" width="1440" height="863" />
+    </state>
+    <state x="257" y="82" width="1009" height="730" key="SettingsEditor/0.0.1440.863@0.0.1440.863" timestamp="1625774238405" />
+  </component>
+</project>
