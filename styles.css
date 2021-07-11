@@ -95,3 +95,31 @@ body {
     transform: rotate(360deg);
   }
 }
+.pulse{
+  /* Chrome, Safari, Opera */
+ -webkit-animation: PULSE 1.5s infinite; 
+ 
+ /* Internet Explorer */
+ -ms-animation: PULSE 1.5s infinite;
+ 
+ /* Standard Syntax */
+ animation: PULSE 1.75s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes PULSE{
+  0%{color:red;}	
+ 110%{color: black;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes PULSE{
+ 0%{color:yellow;}	
+ 110%{color: black;}
+}
+
+/* Standard Syntax */
+@keyframes PULSE{
+ 0%{color:dodgerblue;}	
+ 110%{color: black;}
+}

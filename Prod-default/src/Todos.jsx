@@ -1,7 +1,14 @@
 import "./App.css";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrashAlt } from "@fortawesome/fontawesome-free-regular";
 import firebase, { auth, firestore } from "./firebase";
 import { useCollectionData } from "react-firebase-hooks/firestore";
+import {
+  faClipboardCheck,
+  faSignOutAlt,
+} 
+from "@fortawesome/free-solid-svg-icons";
 
 const Todos = () => {
   const [todo, setTodo] = useState("");
@@ -24,7 +31,10 @@ const Todos = () => {
   return (
     <>
       <header>
-        <button className='signout' onClick={signOut}>Sign Out</button>
+        <button className="signout" onClick={signOut}>
+        <span className='signin2'>Signout</span>
+          <FontAwesomeIcon icon={faSignOutAlt} className="icons" size="lg" />
+        </button>
       </header>
       <main>
         <form onSubmit={onSubmitTodo}>
@@ -58,13 +68,11 @@ const Todo = ({ id, complete, text }) => {
       >
         {text}
       </button>
-      <button onClick={() => onDeleteTodo(id)}>x</button>
-      <button
-        onClick={() =>
-          navigator.clipboard.writeText(text)
-        }
-      >
-        Copy
+      <button onClick={() => onDeleteTodo(id)}>
+        <FontAwesomeIcon icon={faTrashAlt} className="icons" size="lg" />
+      </button>
+      <button onClick={() => navigator.clipboard.writeText(text)}>
+        <FontAwesomeIcon icon={faClipboardCheck} className="icons" size="lg" />
       </button>
     </div>
   );

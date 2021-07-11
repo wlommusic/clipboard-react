@@ -14,7 +14,9 @@ body {
   clear: both;
   position: relative;
   margin-top: 300px;
-  color:white;
+  color:black;
+  background-color: azure;
+  font-weight: bold;
 }
 
 .container {

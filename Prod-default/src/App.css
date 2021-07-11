@@ -16,6 +16,14 @@ button {
   padding-left: 44%;
   padding-top: 50px;
 }
+.signin2{
+  float: right;
+  padding-left: 6px;
+}
+.icons{
+  color: azure !important;
+  
+}
 button:hover,
 button:focus {
   transform: scale(1.2);
@@ -79,7 +87,7 @@ header {
 
 .todo :last-child {
   margin-left: 2rem;
-  color: #bf616a;
+  color:azure;
 }
 
 @keyframes App-logo-spin {
